@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+body{
+    background-color: black;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+h1{
+    color: white;
+    padding: 1em 0;
+    font-size: 5em;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid white;
+    /* width: 60%; */
+    padding: 3em;
+}
+.timer{
+    display: flex;
+    margin-bottom: 2em;
+}
+
+h3{
+    color: white;
+    font-size: 4em;
+    margin-inline: 3px;
+}
+
+button{
+    padding: 0.5em 2em;
+    margin: 1rem;
+    background-color: green;
+    color: white;
+    border: none;
+    font-size: 2em;
+    cursor: pointer;
+}
